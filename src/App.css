@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 /* Login */
 
 .form__group {
@@ -63,4 +64,13 @@
 .nav{
   background-color: #E07272;
   width: 100% !important;
+}
+
+html{
+  background-color: #FEFCF3;
+}
+
+*{
+  font-family: 'Baloo Bhai';
+  font-size: 18px;
 }
