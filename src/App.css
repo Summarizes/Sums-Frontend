@@ -108,3 +108,13 @@ input{
 .lable-col{
   background-color: #DBA39A !important;
 }
+
+.but{
+  background-color: #FF9F9F !important;
+  border-color: #CBCAC2 !important;
+}
+
+.but-i{
+  background-color: #CBCAC2 !important;
+  border-color: #FF9F9F !important;
+}
