@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -59,6 +60,17 @@
   font-weight: 700;
 }
 
+
+
+*{
+  font-family: 'Baloo Bhai';
+  font-size: 18px;
+}
+
+html{
+  background-color: #FEFCF3;
+}
+
 /* Navbar */
 
 .nav{
@@ -66,11 +78,33 @@
   width: 100% !important;
 }
 
-html{
-  background-color: #FEFCF3;
+/* All */
+
+.bg-color{
+  background-color: #FEFCF3 !important;
 }
 
-*{
-  font-family: 'Baloo Bhai';
-  font-size: 18px;
+.box-com{
+  background-color: #F5EBE0 !important;
+}
+
+.lable{
+  margin-top: -160px;
+  margin-left: 20px;
+  background-color: #DBA39A;
+  width: 200px;
+  padding-top: 26px;
+  padding-bottom: 13px;
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+}
+
+input{
+  background-color: #FEFDF5 !important;
+}
+
+.lable-col{
+  background-color: #DBA39A !important;
 }
