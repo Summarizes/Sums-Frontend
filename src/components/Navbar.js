@@ -1,23 +1,28 @@
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { Link } from "react-router-dom";
 import { Button, Nav, NavItem, NavLink } from "reactstrap";
 
 const Navbar = () => {
   return (
-    <Nav className="nav py-3 px-3 justify-between">
+    <Nav className="nav py-3 justify-between d-flex items-center">
+      <div className="d-flex items-center gap-x-5">
+      <Link to={"/"}>
       <img
-        className="w-48"
-        src="https://cdn.discordapp.com/attachments/1073664493210579044/1073872324027240488/Sums_logo.png"
+        className="h-10 ml-4"
+        src="https://cdn.discordapp.com/attachments/1073664493210579044/1073906306114662421/Sums_logo_v2.png"
       />
-      <NavItem>
-        <NavLink></NavLink>
-        <Button>
+      </Link>
+      <NavLink href="/" className="text-white mt-2" ><h4>Home</h4></NavLink>
+      </div>
+      <NavItem className="d-flex items-center">
+        <Link to={"/cart"} className="w-14 cart-but my-auto mr-4">
           <img
-            className="w-8 mr-8"
+            className="w-8 mx-auto my-auto"
             src="https://cdn-icons-png.flaticon.com/512/1170/1170678.png"
           />
-        </Button>
+        </Link>
       </NavItem>
     </Nav>
   );
