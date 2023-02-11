@@ -11,15 +11,14 @@ const Login = () => {
               <h4 className="text-white flex items-center">Login</h4>
             </div>
           </Col>
-          <Col>
-          </Col>
+          <Col></Col>
         </Row>
         <Row>
           <Col>
             <h5>Username</h5>
           </Col>
           <Col>
-            <Input/>
+            <Input />
           </Col>
         </Row>
         <Row className="mt-2">
@@ -27,7 +26,7 @@ const Login = () => {
             <h5>Password</h5>
           </Col>
           <Col>
-            <Input type="password"/>
+            <Input type="password" />
           </Col>
         </Row>
         <Row className="pt-10">

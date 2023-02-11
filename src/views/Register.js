@@ -15,29 +15,29 @@ const Register = () => {
         </Row>
         <Row>
           <Col>
-            <Label className="flex ">Firstname*</Label>
+            <Label className="flex mt-2.5">Firstname*</Label>
             <Input />
           </Col>
           <Col>
-            <Label className="flex ">Lastname*</Label>
-            <Input />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Label className="flex ">Username*</Label>
+            <Label className="flex mt-2.5">Lastname*</Label>
             <Input />
           </Col>
         </Row>
         <Row>
           <Col>
-            <Label className="flex ">Password*</Label>
+            <Label className="flex mt-2.5">Username*</Label>
+            <Input />
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Label className="flex mt-2.5">Password*</Label>
             <Input type="password" />
           </Col>
         </Row>
         <Row>
           <Col>
-            <Label className="flex ">Confirm Password*</Label>
+            <Label className="flex mt-2.5">Confirm Password*</Label>
             <Input type="password" />
           </Col>
         </Row>
