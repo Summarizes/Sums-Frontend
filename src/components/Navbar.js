@@ -17,7 +17,7 @@ const Navbar = () => {
         <NavLink href="/" className="text-white mt-2.5">
           <h5>Home</h5>
         </NavLink>
-        <NavLink href="/my-bundles" className="text-white mt-2.5">
+        <NavLink href="/my/bundles" className="text-white mt-2.5">
           <h5>Bundle</h5>
         </NavLink>
       </div>
