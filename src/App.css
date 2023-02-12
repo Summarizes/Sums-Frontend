@@ -74,3 +74,25 @@ html{
   font-family: 'Baloo Bhai';
   font-size: 18px;
 }
+.but-2:hover{
+  background-color: #E5E3DB !important;
+  border-color: #BA5F5F !important;
+  color: #AF827B !important;
+}
+*{
+  font-family: 'Baloo Bhai';
+  font-size: 18px;
+}
+/* Search */
+
+.search-bundle-title {
+  background-color: #DBA39A;
+  color: white;
+  border-radius: 25px;
+}
+
+.search-body {
+  background-color: #F5EBE0;
+  border-radius: 40px;
+  height: 70vh;
+}
