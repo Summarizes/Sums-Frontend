@@ -47,7 +47,7 @@ const Register = () => {
             <Row>
               <Col></Col>
               <Col>
-                <Button className="w-full lable-col ">Register</Button>
+                <Button className="w-full lable-col but-2">Register</Button>
               </Col>
             </Row>
           </Col>

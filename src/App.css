@@ -132,3 +132,15 @@ input{
   border-color: #FEFCF3 !important;
   color: white !important;
 }
+
+.but-2{
+  background-color: #FF9F9F !important;
+  border-color: #BA5F5F !important;
+  color: white !important;
+}
+
+.but-2:hover{
+  background-color: #E5E3DB !important;
+  border-color: #BA5F5F !important;
+  color: #AF827B !important;
+}

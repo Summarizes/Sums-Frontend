@@ -37,7 +37,7 @@ const Login = () => {
                 <a href="/register">Register Now</a>
               </Col>
               <Col>
-                <Button className="w-full lable-col ">Login</Button>
+                <Button className="w-full lable-col but-2">Login</Button>
               </Col>
             </Row>
           </Col>
