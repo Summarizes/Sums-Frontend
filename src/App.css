@@ -145,3 +145,22 @@ input{
   border-color: #BA5F5F !important;
   color: #AF827B !important;
 }
+
+/* Search */
+
+.search-bundle-title {
+  background-color: #DBA39A;
+  color: white;
+  border-radius: 25px;
+}
+
+.search-body {
+  background-color: #F5EBE0;
+  border-radius: 40px;
+}
+
+/* Bundle Card Body */
+
+.bundle-card-body {
+  width: 12rem;
+}
