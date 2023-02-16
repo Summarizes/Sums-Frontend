@@ -110,6 +110,12 @@ input{
 }
 
 .but{
+  background-color: transparent !important;
+  border-color: #FEFCF3 !important;
+  color: white !important;
+}
+
+.but:hover{
   background-color: #FF9F9F !important;
   border-color: #FEFCF3 !important;
   color: white !important;
@@ -121,11 +127,6 @@ input{
   color: #AF827B !important;
 }
 
-.but:hover{
-  background-color: #F3E2E2 !important;
-  border-color: #FEFCF3 !important;
-  color: #AF827B !important;
-}
 
 .but-i:hover{
   background-color: #FF9F9F !important;
@@ -140,7 +141,7 @@ input{
 }
 
 .but-2:hover{
-  background-color: #E5E3DB !important;
+  background-color: #F3E2E2 !important;
   border-color: #BA5F5F !important;
   color: #AF827B !important;
 }

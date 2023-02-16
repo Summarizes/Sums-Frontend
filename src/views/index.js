@@ -14,7 +14,7 @@ const Views = () => {
             <Route path='/login' element={<Login/>}/>
             <Route path='/register' element={<Register/>}/>
             <Route path='/cart' element={<Cart/>}/>
-            <Route path='//bundles/:bundle_id' element={<BundleDetail/>}/>
+            <Route path='/bundles/:bundle_id' element={<BundleDetail/>}/>
         </Routes>
     </div>
   )
