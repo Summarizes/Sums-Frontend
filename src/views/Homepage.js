@@ -6,11 +6,11 @@ const Homepage = () => {
 
   const dataObject = {
     'bundle_id' : '1',
-    'subject_id': '01222222',
-    'title' : 'Sample 1',
-    'subject' : 'Subject 1',
+    'subject_id': '01204111',
+    'title' : 'สรุปโคตรดี',
+    'subject' : 'Computer & Programming',
     'description' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    'price' : '300'
+    'price' : 300
   }
 
   const data = [
@@ -47,7 +47,7 @@ const Homepage = () => {
               subject_id={bundle.subject_id}
               title={bundle.title}
               subject={bundle.subject}
-              description={bundle.description}
+              description={"a;sl;dl;wlaldskmkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"}
               price={bundle.price}
               />
            </Col>
